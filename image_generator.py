@@ -9,7 +9,7 @@ from diffusers import StableDiffusionXLControlNetPipeline, ControlNetModel, Eule
 from huggingface_hub import hf_hub_download
 from safetensors.torch import load_file as safe_load
 
-# --- Configuration for SDXL and LayerDiffusion ---
+# --- Configuration  for SDXL and LayerDiffusion ---
 BASE_MODEL_ID = "stabilityai/stable-diffusion-xl-base-1.0"
 SDXL_CONTROLNET_MODEL_ID = "diffusers/controlnet-canny-sdxl-1.0"
 LAYER_DIFFUSION_REPO = "LayerDiffusion/layerdiffusion-v1"
